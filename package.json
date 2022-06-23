@@ -1,28 +1,36 @@
 {
   "name": "apiresttemplate",
   "version": "1.0.0",
-  "description": "",
+  "description": "API Rest template",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "devStart": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "api",
-    "rest"
-  ],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juldrixx/APIRestTemplate.git"
+  },
+  "keywords": [],
+  "author": "Juldrixx <juldrixx@gmail.com>",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juldrixx/APIRestTemplate/issues"
+  },
+  "homepage": "https://github.com/juldrixx/APIRestTemplate#readme",
   "dependencies": {
-    "body-parser": "^1.19.0",
-    "dotenv": "^8.2.0",
-    "express": "^4.17.1",
-    "got": "^11.1.3",
-    "swagger-jsdoc": "^4.0.0",
-    "swagger-ui-express": "^4.1.4"
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "got": "^12.1.0",
+    "jsonwebtoken": "^8.5.1",
+    "mysql": "^2.18.1",
+    "swagger-jsdoc": "^6.2.1",
+    "swagger-ui-express": "^4.4.0"
   },
   "devDependencies": {
-    "nodemon": "^2.0.3"
+    "nodemon": "^2.0.16"
   }
 }
